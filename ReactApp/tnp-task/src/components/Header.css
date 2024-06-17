@@ -1,0 +1,52 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003a79;
+
+}
+
+.get-started {
+    padding: 0.5rem 1rem;
+    margin-right: 30px;
+    background-color: #003a79;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+}
+
+.get-started:hover {
+    background-color: #0056b3;
+}

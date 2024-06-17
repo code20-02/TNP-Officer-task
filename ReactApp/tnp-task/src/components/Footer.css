@@ -1,0 +1,40 @@
+.footer {
+    background-color: #0b0f4a;
+    height: inherit; /* Or your desired color */
+    padding: 20px;
+    display: flex; /* Use flexbox for easy layout */
+    justify-content: center; /* Space items evenly */
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  h4{
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 20px; /* Adjust spacing between links */
+  }
+  
+  .social-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+  
+  .social-link span {
+    font-size: 14px;
+    color: white;
+  }
+  
